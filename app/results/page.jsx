@@ -643,8 +643,9 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { conditions } from "../data/conditions";
 import jsPDF from "jspdf";
-import NavBar from "../components/NavBar";
+
 import { Info, Download } from "lucide-react";
+import NavBar from "../components/Navbar";
 
 export const dynamic = "force-dynamic";
 
